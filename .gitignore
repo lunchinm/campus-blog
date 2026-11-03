@@ -1,0 +1,29 @@
+# 依赖与构建产物
+node_modules/
+dist/
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.trae/
+.codebuddy/
+.playwright-cli/
+
+# 后端本地配置（含数据库口令，绝不入库）
+backend/src/main/resources/application.yml
+
+# 运行时产生的上传文件
+backend/uploads/
+uploads/
+
+# 日志与临时
+*.log
+logs/
+*.tmp
+
+# 系统
+.DS_Store
+Thumbs.db
